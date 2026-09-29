@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://OfloGjNMJY-K"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1ulcu"]
+content_margin_left = 24.0
+content_margin_top = 12.0
+content_margin_right = 24.0
+content_margin_bottom = 14.0
+bg_color = Color(0, 0, 0, 0.3764706)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0, 0, 0, 0.6156863)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="Theme" id="Theme_ssj85"]
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_1ulcu")
+
+[node name="tooltip" type="PanelContainer"]
+top_level = true
+clip_contents = true
+offset_right = 273.0
+offset_bottom = 110.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+theme = SubResource("Theme_ssj85")
+
+[node name="texto" type="RichTextLabel" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 2
+bbcode_enabled = true
+text = "[img]res://assets/ui/usuarios.png[img]
+[b]Titulo[b]
+
+Descrição"
+fit_content = true

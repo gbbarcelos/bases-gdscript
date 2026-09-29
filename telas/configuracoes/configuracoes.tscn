@@ -1,0 +1,191 @@
+[gd_scene load_steps=2 format=3 uid="uid://ceer01ssawdhf"]
+
+[ext_resource type="Script" path="res://telas/configuracoes/configuracoes.gd" id="1_oei7b"]
+
+[node name="configuracoes" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_oei7b")
+
+[node name="bg" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.521569, 0.521569, 0.631373, 1)
+
+[node name="abas" type="TabContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 55.0
+offset_top = 55.0
+offset_right = 1089.0
+offset_bottom = 612.0
+current_tab = 1
+
+[node name="tela" type="TabBar" parent="abas"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="mc" type="MarginContainer" parent="abas/tela"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="vbc" type="VBoxContainer" parent="abas/tela/mc"]
+custom_minimum_size = Vector2(550, 0)
+layout_mode = 2
+
+[node name="fps" type="Label" parent="abas/tela/mc/vbc"]
+layout_mode = 2
+text = "limitar fps"
+
+[node name="fps_opcoes" type="OptionButton" parent="abas/tela/mc/vbc"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="hs2" type="HSeparator" parent="abas/tela/mc/vbc"]
+layout_mode = 2
+
+[node name="resolucao" type="Label" parent="abas/tela/mc/vbc"]
+layout_mode = 2
+text = "resolução"
+
+[node name="resolucoes" type="OptionButton" parent="abas/tela/mc/vbc"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="hs3" type="HSeparator" parent="abas/tela/mc/vbc"]
+layout_mode = 2
+
+[node name="vsync" type="Label" parent="abas/tela/mc/vbc"]
+layout_mode = 2
+text = "vsync"
+
+[node name="vsync_opcoes" type="CheckButton" parent="abas/tela/mc/vbc"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="hs1" type="HSeparator" parent="abas/tela/mc/vbc"]
+layout_mode = 2
+
+[node name="tela_cheia" type="Label" parent="abas/tela/mc/vbc"]
+layout_mode = 2
+text = "tela cheia"
+
+[node name="tela_check" type="CheckButton" parent="abas/tela/mc/vbc"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="som" type="TabBar" parent="abas"]
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="mc" type="MarginContainer" parent="abas/som"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="vb" type="VBoxContainer" parent="abas/som/mc"]
+layout_mode = 2
+
+[node name="musica" type="Label" parent="abas/som/mc/vb"]
+layout_mode = 2
+text = "música"
+
+[node name="musicas" type="HSlider" parent="abas/som/mc/vb"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="efeito" type="Label" parent="abas/som/mc/vb"]
+layout_mode = 2
+text = "efeitos sonoros"
+
+[node name="efeitos" type="HSlider" parent="abas/som/mc/vb"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="input" type="TabBar" parent="abas"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="mc" type="MarginContainer" parent="abas/input"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="hbc" type="HBoxContainer" parent="abas/input/mc"]
+layout_mode = 2
+
+[node name="inp" type="VBoxContainer" parent="abas/input/mc/hbc"]
+custom_minimum_size = Vector2(750, 0)
+layout_mode = 2
+
+[node name="mapa de entrada" type="Label" parent="abas/input/mc/hbc/inp"]
+layout_mode = 2
+text = "mapa de entrada"
+
+[node name="HSeparator" type="HSeparator" parent="abas/input/mc/hbc/inp"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+
+[node name="i" type="HBoxContainer" parent="abas/input/mc/hbc/inp"]
+layout_mode = 2
+
+[node name="nomes" type="VBoxContainer" parent="abas/input/mc/hbc/inp/i"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="inputs" type="VBoxContainer" parent="abas/input/mc/hbc/inp/i"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="vsp" type="VSeparator" parent="abas/input/mc/hbc"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+
+[node name="sensibilidade do mouse" type="Label" parent="abas/input/mc/hbc"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "sensibilidade do mouse"
+
+[node name="vs" type="VSeparator" parent="abas/input/mc/hbc"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+
+[node name="sensibilidade" type="HSlider" parent="abas/input/mc/hbc"]
+unique_name_in_owner = true
+layout_mode = 2
+tick_count = 8

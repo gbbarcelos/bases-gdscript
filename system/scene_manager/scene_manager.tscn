@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckr532ufi60s5"]
+
+[ext_resource type="Script" uid="uid://civ63banweibe" path="res://system/game_controller/game_controller.gd" id="1_8ejag"]
+[ext_resource type="PackedScene" uid="uid://d2cylq1t74cnn" path="res://telas/tela_inicial/tela_inicial.tscn" id="2_kvnpo"]
+
+[node name="game_controller" type="Node" node_paths=PackedStringArray("cenas_2d", "cenas_3d", "gui")]
+script = ExtResource("1_8ejag")
+cenas_2d = NodePath("cenas_2d")
+cenas_3d = NodePath("cenas_3d")
+gui = NodePath("gui")
+
+[node name="cenas_3d" type="Node3D" parent="."]
+
+[node name="cenas_2d" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="tela_inicial" parent="cenas_2d" instance=ExtResource("2_kvnpo")]
+layout_mode = 1
+
+[node name="gui" type="CanvasLayer" parent="."]

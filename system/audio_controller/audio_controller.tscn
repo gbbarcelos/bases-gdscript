@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://etak5v78fju"]
+
+[ext_resource type="Script" path="res://system/audio_controller/audio_controller.gd" id="1_f5a6l"]
+
+[node name="audio_controller" type="Node"]
+script = ExtResource("1_f5a6l")
+ui = Array[String](["uid://c4e534h8qju4g"])
+
+[node name="ui" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+
+[node name="bg" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true

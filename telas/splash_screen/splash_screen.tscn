@@ -1,0 +1,236 @@
+[gd_scene format=3 uid="uid://dfo4htrpxm1i8"]
+
+[sub_resource type="Animation" id="Animation_o3vtl"]
+resource_name = "godot"
+length = 5.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("logo/logos:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"godot"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("logo/logos:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("logo/logos:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.533333, 4.73333, 5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("logo/logos:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.533333, 0.683333, 0.833333, 4.38333, 4.5, 4.73333, 5),
+"transitions": PackedFloat32Array(2, 1, 1, 1, 1, 1, 0.5, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(5, 5), Vector2(5.3, 5.3), Vector2(5, 5), Vector2(5, 5), Vector2(5.3, 5.3), Vector2(5, 5), Vector2(0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("logo/logos:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 1, 1.16667, 1.26667, 1.36667, 1.46667, 1.56667),
+"transitions": PackedFloat32Array(1, -2, -0.5, -2, -0.5, -2, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.785398, -0.785398, 0.785398, -0.785398, 0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("logo/logos:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 4.2, 4.3, 4.5, 4.83333),
+"transitions": PackedFloat32Array(1, 2, -2, 0.5, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, -38), Vector2(0, -90), Vector2(0, 0)]
+}
+
+[sub_resource type="Resource" id="Resource_jxq51"]
+metadata/__load_path__ = "res://assets/placeholders/sfx/pencil-scribble-medium-gamemaster-audio-2-2-00-01.mp3"
+
+[sub_resource type="Resource" id="Resource_2j57y"]
+metadata/__load_path__ = "res://assets/placeholders/sfx/pencil-scribble-medium-gamemaster-audio-2-2-00-01.mp3"
+
+[sub_resource type="Animation" id="Animation_lt73f"]
+resource_name = "rabisgatos"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("logo/logos:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"rabisgatos"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("logo/logos:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.46667, 2, 2.5, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0, 1, 2, 0, 2, 1, 2]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("logo/logos:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1, 2.5, 3),
+"transitions": PackedFloat32Array(2, 1, 1, 0.5),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("logo/logos:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1, 1.13333, 1.25, 2.15, 2.26667, 2.5, 2.96667),
+"transitions": PackedFloat32Array(2, -2, -0.5, -2, -0.5, -2, 0.5, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(1, 1), Vector2(1.15, 1.15), Vector2(1, 1), Vector2(1, 1), Vector2(1.15, 1.15), Vector2(1, 1), Vector2(0, 0)]
+}
+tracks/4/type = "audio"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("audio")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"clips": [{
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": null
+}],
+"times": PackedFloat32Array(0)
+}
+tracks/4/use_blend = true
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("audio:stream")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [SubResource("Resource_jxq51"), SubResource("Resource_2j57y")]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("audio:playing")
+tracks/6/interp = 0
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(2.2),
+"update": 1,
+"values": [true]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("audio:volume_db")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0.1, 0.466667, 1.83333, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [-50.0, -15.0, -15.0, -35.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_o3vtl"]
+_data = {
+&"godot": SubResource("Animation_o3vtl"),
+&"rabisgatos": SubResource("Animation_lt73f")
+}
+
+[node name="splash_screen_manager" type="Control" unique_id=420526848]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="fundo" type="ColorRect" parent="." unique_id=2073623583]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="logo" type="PanelContainer" parent="." unique_id=321683052]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="logos" type="AnimatedSprite2D" parent="logo" unique_id=148178432]
+modulate = Color(1, 1, 1, 0)
+texture_filter = 1
+scale = Vector2(1e-05, 1e-05)
+animation = &"jogo"
+
+[node name="animacao" type="AnimationPlayer" parent="." unique_id=1669165828]
+unique_name_in_owner = true
+libraries/ = SubResource("AnimationLibrary_o3vtl")
+
+[node name="audio" type="AudioStreamPlayer" parent="." unique_id=270177586]
+volume_db = -50.0
